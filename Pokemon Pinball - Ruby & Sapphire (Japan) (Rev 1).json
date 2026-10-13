@@ -1,0 +1,128 @@
+{
+  "profile": {
+    "game_code": "BPPJ",
+    "region": "Japan"
+  },
+  "base_rom": {
+    "path": "/home/one/pokepinball/Pokemon Pinball - Ruby & Sapphire (Japan) (Rev 1).gba",
+    "size": 8388608,
+    "sha256": "67a2adc8f97b039ee8628bf48f2e5575fe49e05db3a5ed64ea4d05cb177effeb"
+  },
+  "target_rom": {
+    "path": "Pokemon Pinball - Ruby & Sapphire (Japan) (Rev 1).gba",
+    "size": 8388608,
+    "sha256": "67a2adc8f97b039ee8628bf48f2e5575fe49e05db3a5ed64ea4d05cb177effeb"
+  },
+  "cart_patch_sha256": "b885f50a1f7a872f40a29c2612e9f1001a1c323c3017cb003f1a7ab797ac8344",
+  "omega_patch_sha256": "a317f9f6b360439080ffc10e309917627fcadec08dbeaef7bebe6f7936735320",
+  "mappings": [
+    {
+      "source_offset": 4284,
+      "target_offset": 4284,
+      "context_bytes_each_side": 96
+    },
+    {
+      "source_offset": 4372,
+      "target_offset": 4372,
+      "context_bytes_each_side": 96
+    },
+    {
+      "source_offset": 4416,
+      "target_offset": 4416,
+      "context_bytes_each_side": 96
+    },
+    {
+      "source_offset": 4602,
+      "target_offset": 4602,
+      "context_bytes_each_side": 96
+    },
+    {
+      "source_offset": 4808,
+      "target_offset": 4808,
+      "context_bytes_each_side": 96
+    },
+    {
+      "source_offset": 4854,
+      "target_offset": 4854,
+      "context_bytes_each_side": 96
+    },
+    {
+      "source_offset": 5004,
+      "target_offset": 5004,
+      "context_bytes_each_side": 96
+    },
+    {
+      "source_offset": 6232,
+      "target_offset": 6232,
+      "context_bytes_each_side": 96
+    },
+    {
+      "source_offset": 61196,
+      "target_offset": 61196,
+      "context_bytes_each_side": 96
+    },
+    {
+      "source_offset": 322442,
+      "target_offset": 322442,
+      "context_bytes_each_side": 96
+    },
+    {
+      "source_offset": 322816,
+      "target_offset": 322816,
+      "context_bytes_each_side": 96
+    },
+    {
+      "source_offset": 323118,
+      "target_offset": 323118,
+      "context_bytes_each_side": 96
+    },
+    {
+      "source_offset": 323158,
+      "target_offset": 323158,
+      "context_bytes_each_side": 96
+    },
+    {
+      "source_offset": 323498,
+      "target_offset": 323498,
+      "context_bytes_each_side": 96
+    },
+    {
+      "source_offset": 323558,
+      "target_offset": 323558,
+      "context_bytes_each_side": 96
+    }
+  ],
+  "branch_entries": [
+    {
+      "hook_offset": 4372,
+      "payload_entry_offset": 64
+    },
+    {
+      "hook_offset": 4808,
+      "payload_entry_offset": 32
+    },
+    {
+      "hook_offset": 4854,
+      "payload_entry_offset": 72
+    },
+    {
+      "hook_offset": 5004,
+      "payload_entry_offset": 88
+    },
+    {
+      "hook_offset": 6232,
+      "payload_entry_offset": 106
+    },
+    {
+      "hook_offset": 61196,
+      "payload_entry_offset": 0
+    }
+  ],
+  "old_hook_restoration": null,
+  "payload_offset": 350640,
+  "payload_reason": "reused CartRumble v1.1 payload location",
+  "output_record_count": 16,
+  "output_ips_size": 376,
+  "output_ips_sha256": "d7fb555df06cacf450a2579b2ceb787eecd86e09226fb2dd433dc3aa0e611a9a",
+  "patched_rom_sha256": "70ca4154406a20de9ee638d25c0310ecf44ac98af374b1d97dab51651e243bd5"
+}
